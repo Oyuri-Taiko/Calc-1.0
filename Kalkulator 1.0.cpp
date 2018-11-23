@@ -62,7 +62,7 @@ int main()
 			cout << "\nPodaj wartosc stopnia: ";
 			cin >> b;
 			cout << "\nWprowadzono wartosci a = "  << a <<" b = " << b << " "
-				 << ", dla podanych wartosci potegowanie wynosi = " << potega(a, b) << "\n\n";
+				 << ", dla podanych wartosci potegowanie wynosi = " << potega(b, a) << "\n\n";
 		goto abc;	 
 		default:
 			cout << "\nWybrano nieprawidlowy numer, powrot do menu glownego. \n\n";
